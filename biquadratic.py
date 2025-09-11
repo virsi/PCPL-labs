@@ -16,10 +16,7 @@ def input_coefficients():
     return coefficients_array
 
 def solve_biquadratic(a, b, c):
-    """
-    Решает биквадратное уравнение вида: a*x^4 + b*x^2 + c = 0
-    Возвращает список корней (вещественных и комплексных).
-    """
+
     if a == 0:
         # Уравнение сводится к квадратному: b*x^2 + c = 0
         if b == 0:
