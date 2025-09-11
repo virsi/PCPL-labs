@@ -5,9 +5,9 @@ class Circle(Figure):
 
     _name = "Круг"
 
-    def __init__(self, radius):
+    def __init__(self, radius, color):
         self.radius = radius
-        self.color = 'None'
+        self.color = color
 
     @classmethod
     def get_name(cls):
